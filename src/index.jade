@@ -1,0 +1,131 @@
+!!! 5
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Analytic Board
+
+    //- Check out 'src/bower_components/prism/themes/' for available themes
+    link(rel='stylesheet', type='text/css', href='bower_components/prism/themes/prism-tomorrow.css')
+
+    link(rel='stylesheet', type='text/css', href='styles/main.css')
+
+body
+  article
+    section.gray
+      h1 Diseño de Visualizaciones de Datos
+      div
+        img(src="img/analytic-board-logo.png")
+      div.bt-right
+        img(src="img/ingenio-solido-logo.png")
+    section.green
+      h1 ¿ Qué es la Visualización de Datos?
+      h2 Se refiere a la creación de representaciones visuales como gráficas interactivas (diagramas de barras, tortas, líneas de tiempo, treemaps, etc.) que faciliten el análisis y la compresión de datos.
+    section.white
+      h3 Ejemplo de Visualización de Datos
+      iframe(src='demos/radar-innovation/index.html',scrolling="no", height='100%', width='100%',style="border:0px")
+    section.green
+      h1 ¿Cómo hacer visualizaciones que le encanten a los clientes?
+    section.blue
+      h1 Tener muy claro el objetivo de la visualización
+      h2 ¿Qué preguntas quiero resolver? ¿Qué busco transmistir?
+    section.yougotit
+      .tint
+        h1 Juega con los datos hasta que de verdad los entedas
+    section.blue
+      h1 Escoge la gráfica correcta para cada tipo de dato
+      h2 Te vas a equivocar (No te preocupes)
+    section.white
+      h2 Haz tu Prototipo en Papel (Explicalo)
+      div
+        img(src="img/example-dashboard.jpg")
+    section.hellno
+      .tint
+        h1 No hagas Diseño Gráfico
+        h2 Mejor haz un moodboard
+    section.shutup
+      .tint
+        h1 Haz un Prototipo Interactivo
+        h2 (Cállate y Escucha)
+    section.blue
+      h1 Valida con tantas personas como puedas
+      h2 Refina
+    section.red
+      h1 ¿Qué no debes hacer?
+    section.cake
+      .tint
+        h1 No abuses de las tortas
+    section.weak
+      .tint
+        h1 Si necesitas muchas etiquetas
+        h2 Tu visualización es débil
+    section.blue
+      h1
+        | El
+        span.big-text  90%
+        |  de la información se ha creado en los
+        span.big-text  2
+        |  últimos años
+      h4 (Zikopoulos, Eaton, DeRoos, Deutsch, & Lapis, 2012)
+    section.green
+      h1 Para que la información sea útil debe ser:
+      h2 Organizada, Integrada, De alta calidad, Fácil de entender y Presentada a tiempo.
+      h3 (March & Hevner, 2007, p. 1032)
+    section.white
+      h1 La solución
+      img(src="img/solucion.png")
+    section.gray
+      h1 Analytic Board
+      img(src="img/analytic-board-ipad.png")
+    section.red
+      h1 Nuestra Propuesta de Valor
+      h2.font-yellow Le Damos Vida al Conocimiento de Nuestros Clientes
+      h2 &nbsp;
+      h2 Mejoramos el resultado de los trabajos de consultoría, investigación, supervisión, educación y periodismo, volvíendolos más atractivos y útiles para sus clientes, a tráves del uso de gráficas interactivas y dashboards dinámicos
+    section.blue
+      h1 Nuestro Portafolio
+    section.white
+      h2 Visor Dinámico de Resultados
+      iframe(src='http://162.243.225.191:5000/login',scrolling="yes", height='100%', width='100%',style="border:0px")
+    section.white
+      h2 Supervisión de Transporte en Tiempo Real
+      img(src="img/s2m2.png")
+    section.white
+      iframe(src='demos/metro-reports/index.html',scrolling="yes", height='100%', width='100%',style="border:0px")
+    section.aliceblue
+      iframe(src='demos/risk-america/index.html',scrolling="yes", height='100%', width='100%',style="border:0px")
+    section.white
+      h2 Patrones de Crecimiento de los Niños
+      iframe(src='demos/growth-charts/index.html',scrolling="no", height='100%', width='100%',style="border:0px")
+    section.white
+      h2 Ideologías, Desigualdad y PIB en América Latina
+      iframe(src='demos/gni-pib/index.html',scrolling="yes", height='100%', width='100%',style="border:0px")
+    section.white
+      h2 Mapa de Riesgos de Software
+      iframe(src='demos/risk-treemap/index.html',scrolling="no", height='100%', width='100%',style="border:0px")
+    section.white
+      h2 Selección de Software
+      iframe(src='demos/par-coord-tech-select/index.html',scrolling="no", height='100%', width='100%',style="border:0px")
+    section.white
+        h2 Nuestras Ventas
+        iframe(src='demos/ventas/ventas.html',scrolling="no", height='100%', width='100%',style="border:0px")
+    section.gray
+      div
+        h1 Nuestro Equipo
+        img(src="img/equipo.png")
+    section.life
+      .tint
+          h2 Analytic Board
+          h1 Dele Vida a su Conocimiento
+          h2 Gracias por su atención
+
+  script(src='bower_components/bespoke.js/dist/bespoke.min.js')
+  script(src='bower_components/bespoke-bullets/dist/bespoke-bullets.min.js')
+  script(src='bower_components/bespoke-scale/dist/bespoke-scale.min.js')
+  script(src='bower_components/bespoke-hash/dist/bespoke-hash.min.js')
+  script(src='bower_components/bespoke-progress/dist/bespoke-progress.min.js')
+  script(src='bower_components/bespoke-state/dist/bespoke-state.min.js')
+  script(src='bower_components/bespoke-forms/dist/bespoke-forms.min.js')
+  script(src='bower_components/prism/prism.js')
+  script(src='scripts/main.js')
+
