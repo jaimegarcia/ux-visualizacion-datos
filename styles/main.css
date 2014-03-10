@@ -395,3 +395,15 @@ a {
   -moz-background-size: cover;
   background-size: cover;
 }
+.art {
+  background-image: url("../img/art.gif");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.thanks {
+  background-image: url("../img/thanks.gif");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
